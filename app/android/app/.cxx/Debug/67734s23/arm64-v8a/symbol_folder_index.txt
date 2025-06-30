@@ -1,0 +1,1 @@
+/Users/herisarwanto/Documents/FlutterProjects/flutter_monorepo_starter/app/build/app/intermediates/cxx/Debug/67734s23/obj/arm64-v8a

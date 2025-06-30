@@ -1,0 +1,22 @@
+name: flutter_monorepo_starter
+publish_to: none
+environment:
+  sdk: ^3.6.0
+workspace: 
+  - app
+  - packages/data
+  - packages/domain
+  - packages/presentation
+
+dev_dependencies:
+  melos: ^7.0.0-dev.8
+
+melos:
+  scripts:
+    build:
+      run: fvm dart run build_runner build --delete-conflicting-outputs
+      exec:
+        concurrency: 4
+      packageFilters:
+        dependsOn: build_runner
+      description: Run build_runner build for all packages 

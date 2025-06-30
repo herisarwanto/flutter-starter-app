@@ -1,0 +1,1 @@
+/Users/herisarwanto/Documents/FlutterProjects/flutter_monorepo_starter/apps/app/build/app/intermediates/cxx/Debug/2z5k6653/obj/armeabi-v7a

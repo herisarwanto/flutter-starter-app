@@ -1,0 +1,2 @@
+/Users/herisarwanto/Documents/FlutterProjects/flutter_monorepo_starter/apps/app/android/app/.cxx/Debug/2z5k6653/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/herisarwanto/Documents/FlutterProjects/flutter_monorepo_starter/apps/app/android/app/.cxx/Debug/2z5k6653/armeabi-v7a/CMakeFiles/rebuild_cache.dir
