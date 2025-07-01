@@ -12,6 +12,10 @@ dependencies:
     sdk: flutter
   auto_route: ^7.8.4
   common: ^0.0.1
+  data:
+    path: ../packages/data
+  domain:
+    path: ../packages/domain
   presentation:
     path: ../packages/presentation
   injectable: ^2.1.0

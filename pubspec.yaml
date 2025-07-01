@@ -20,4 +20,9 @@ melos:
         concurrency: 4
       packageFilters:
         dependsOn: build_runner
-      description: Run build_runner build for all packages 
+      description: Run build_runner build for all packages
+    clean_bootstrap:
+      run: |
+        fvm dart run melos clean
+        fvm dart run melos bootstrap
+      description: Clean and bootstrap all packages with FVM 
