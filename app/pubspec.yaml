@@ -10,11 +10,23 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  auto_route: ^7.8.4
+  common: ^0.0.1
+  data:
+    path: ../packages/data
+  domain:
+    path: ../packages/domain
+  presentation:
+    path: ../packages/presentation
+  injectable: ^2.1.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^3.0.0
-
+  auto_route_generator: ^7.3.2
+  build_runner: ^2.4.7
+  injectable_generator: ^2.5.0
+  
 flutter:
   uses-material-design: true
