@@ -1,6 +1,7 @@
+import 'package:app/core/router/app_router.dart';
 import 'package:flutter/material.dart';
 
-class MainApp extends StatelessWidget {
+class MainApp extends StatefulWidget {
   final String title;
 
   const MainApp({
@@ -9,13 +10,16 @@ class MainApp extends StatelessWidget {
   });
 
   @override
+  State<MainApp> createState() => _MainAppState();
+}
+
+class _MainAppState extends State<MainApp> {
+  final _appRouter = AppRouter();
+
+  @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello World! ($title)'),
-        ),
-      ),
+    return MaterialApp.router(
+      routerConfig: _appRouter.config(),
     );
   }
 }

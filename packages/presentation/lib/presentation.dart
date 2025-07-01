@@ -1,7 +1,8 @@
 library presentation;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'presentation.dart';
+export 'src/config/presentation_config.dart';
+export 'src/config/presentation_route.dart';
+export 'src/config/presentation_route.gm.dart';
+export 'src/common/route/route_name.dart';
+export 'src/common/route/home_route_provider.dart';

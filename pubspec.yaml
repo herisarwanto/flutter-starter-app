@@ -4,6 +4,7 @@ environment:
   sdk: ^3.6.0
 workspace: 
   - app
+  - packages/common
   - packages/data
   - packages/domain
   - packages/presentation
