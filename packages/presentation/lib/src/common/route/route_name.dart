@@ -1,1 +1,1 @@
-const homeRouteName = '/';
+const dashboardRouteName = '/';

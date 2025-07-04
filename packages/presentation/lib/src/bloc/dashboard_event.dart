@@ -1,0 +1,8 @@
+part of 'dashboard_bloc.dart';
+
+@freezed
+abstract class DashboardEvent with _$DashboardEvent {
+  const factory DashboardEvent.init({
+    @Default(DashboardState()) DashboardState state,
+  }) = _DashboardInitEvent;
+}
